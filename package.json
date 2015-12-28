@@ -1,0 +1,51 @@
+{
+  "name": "npm-run-path-cli",
+  "version": "0.0.0",
+  "description": "Get your PATH prepended with locally installed binaries",
+  "license": "MIT",
+  "repository": "sindresorhus/npm-run-path-cli",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bin": {
+    "npm-run-path": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "npm",
+    "run",
+    "path",
+    "package",
+    "bin",
+    "binary",
+    "binaries",
+    "script",
+    "command-line",
+    "execute",
+    "executable"
+  ],
+  "dependencies": {
+    "meow": "^3.6.0",
+    "npm-run-path": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.1.1",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
