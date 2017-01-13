@@ -38,14 +38,11 @@
   ],
   "dependencies": {
     "meow": "^3.6.0",
-    "npm-run-path": "^1.0.0"
+    "npm-run-path": "^2.0.2"
   },
   "devDependencies": {
     "ava": "*",
-    "execa": "^0.1.1",
+    "execa": "^0.6.0",
     "xo": "*"
-  },
-  "xo": {
-    "esnext": true
   }
 }
