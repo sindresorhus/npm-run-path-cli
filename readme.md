@@ -1,4 +1,4 @@
-# npm-run-path-cli [![Build Status](https://travis-ci.org/sindresorhus/npm-run-path-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/npm-run-path-cli)
+# npm-run-path-cli
 
 > Get your [PATH](https://en.wikipedia.org/wiki/PATH_(variable)) prepended with locally installed binaries
 
