@@ -1,48 +1,50 @@
 {
-  "name": "npm-run-path-cli",
-  "version": "1.1.0",
-  "description": "Get your PATH prepended with locally installed binaries",
-  "license": "MIT",
-  "repository": "sindresorhus/npm-run-path-cli",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "bin": {
-    "npm-run-path": "cli.js"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "cli.js"
-  ],
-  "keywords": [
-    "cli-app",
-    "cli",
-    "npm",
-    "run",
-    "path",
-    "package",
-    "bin",
-    "binary",
-    "binaries",
-    "script",
-    "command-line",
-    "execute",
-    "executable"
-  ],
-  "dependencies": {
-    "meow": "^3.6.0",
-    "npm-run-path": "^2.0.2"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "execa": "^0.6.0",
-    "xo": "*"
-  }
+	"name": "npm-run-path-cli",
+	"version": "1.1.0",
+	"description": "Get your PATH prepended with locally installed binaries",
+	"license": "MIT",
+	"repository": "sindresorhus/npm-run-path-cli",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"type": "module",
+	"bin": {
+		"npm-run-path": "./cli.js"
+	},
+	"engines": {
+		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"npm",
+		"run",
+		"path",
+		"package",
+		"bin",
+		"binary",
+		"binaries",
+		"script",
+		"command-line",
+		"execute",
+		"executable"
+	],
+	"dependencies": {
+		"meow": "^10.1.1",
+		"npm-run-path": "^5.0.1"
+	},
+	"devDependencies": {
+		"ava": "^3.15.0",
+		"execa": "^5.1.1",
+		"xo": "^0.45.0"
+	}
 }

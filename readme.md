@@ -4,13 +4,11 @@
 
 In [npm run scripts](https://docs.npmjs.com/cli/run-script) you can execute locally installed binaries by name. This enables the same outside npm.
 
-
 ## Install
 
+```sh
+npm install --global npm-run-path-cli
 ```
-$ npm install --global npm-run-path-cli
-```
-
 
 ## Usage
 
@@ -21,12 +19,6 @@ $ npm-run-path --help
     $ export PATH="$(npm-run-path)"
 ```
 
-
 ## Related
 
 - [npm-run-path](https://github.com/sindresorhus/npm-run-path) - API for this module
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
